@@ -1,0 +1,16 @@
+﻿  FileTool.cpp
+D:\coding_repository\VS2019\workplace\公司人员管理系统\公司人员管理系统\FileTool.cpp(18,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  Manager.cpp
+  ManagerSalary.cpp
+  PartTimeTechnician.cpp
+  PartTimeTechnicianSalary.cpp
+  Salary.cpp
+  SalesMan.cpp
+  SalesManager.cpp
+  SalesManagerSalary.cpp
+  SalesManSalary.cpp
+  Stuff.cpp
+  正在生成代码...
+FileTool.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl PartTimeTechnician::PartTimeTechnician(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (??0PartTimeTechnician@@QEAA@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)，函数 "public: void __cdecl FileTool::readFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::vector<class Manager,class std::allocator<class Manager> > &,class std::vector<class PartTimeTechnician,class std::allocator<class PartTimeTechnician> > &,class std::vector<class SalesMan,class std::allocator<class SalesMan> > &,class std::vector<class SalesManager,class std::allocator<class SalesManager> > &)" (?readFile@FileTool@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@VManager@@V?$allocator@VManager@@@std@@@3@AEAV?$vector@VPartTimeTechnician@@V?$allocator@VPartTimeTechnician@@@std@@@3@AEAV?$vector@VSalesMan@@V?$allocator@VSalesMan@@@std@@@3@AEAV?$vector@VSalesManager@@V?$allocator@VSalesManager@@@std@@@3@@Z) 中引用了该符号
+D:\coding_repository\VS2019\workplace\公司人员管理系统\x64\Debug\公司人员管理系统.exe : fatal error LNK1120: 1 个无法解析的外部命令

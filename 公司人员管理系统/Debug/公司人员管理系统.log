@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\coding_repository\VS2019\workplace\公司人员管理系统\公司人员管理系统\main.cpp(83,8): warning C4101: “salesVolume”: 未引用的局部变量
+D:\coding_repository\VS2019\workplace\公司人员管理系统\公司人员管理系统\main.cpp(82,8): warning C4101: “workTime”: 未引用的局部变量
+D:\coding_repository\VS2019\workplace\公司人员管理系统\公司人员管理系统\main.cpp(78,8): warning C4101: “id”: 未引用的局部变量
+  公司人员管理系统.vcxproj -> D:\coding_repository\VS2019\workplace\公司人员管理系统\Debug\公司人员管理系统.exe

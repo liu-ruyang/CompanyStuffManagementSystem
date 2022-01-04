@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\stuff">
+      <UniqueIdentifier>{5f3cf5cc-e87f-4e01-9c9d-d8e36313a1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\salary">
+      <UniqueIdentifier>{a1b88b35-5751-4fcd-b7b2-3183a0b17585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\salary">
+      <UniqueIdentifier>{11f82f8e-0cee-4ccc-a17e-736883b6fcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\stuff">
+      <UniqueIdentifier>{e51f6ea7-729c-4edb-b4a3-ffdfb23d534f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{9ed48cd6-93a4-4f35-aaf9-3c9edc6304c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{36fc53fb-d694-42b0-b812-238c653f5973}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ManagerSalary.h">
+      <Filter>头文件\salary</Filter>
+    </ClInclude>
+    <ClInclude Include="PartTimeTechnicianSalary.h">
+      <Filter>头文件\salary</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesManagerSalary.h">
+      <Filter>头文件\salary</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesManSalary.h">
+      <Filter>头文件\salary</Filter>
+    </ClInclude>
+    <ClInclude Include="Salary.h">
+      <Filter>头文件\salary</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>头文件\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PartTimeTechnician.h">
+      <Filter>头文件\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesMan.h">
+      <Filter>头文件\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Stuff.h">
+      <Filter>头文件\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="SalesManager.h">
+      <Filter>头文件\stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTool.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="OperateTool.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerSalary.cpp">
+      <Filter>源文件\salary</Filter>
+    </ClCompile>
+    <ClCompile Include="PartTimeTechnicianSalary.cpp">
+      <Filter>源文件\salary</Filter>
+    </ClCompile>
+    <ClCompile Include="Salary.cpp">
+      <Filter>源文件\salary</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesManagerSalary.cpp">
+      <Filter>源文件\salary</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesManSalary.cpp">
+      <Filter>源文件\salary</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>源文件\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="PartTimeTechnician.cpp">
+      <Filter>源文件\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesMan.cpp">
+      <Filter>源文件\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="SalesManager.cpp">
+      <Filter>源文件\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Stuff.cpp">
+      <Filter>源文件\stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTool.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="OperateTool.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
